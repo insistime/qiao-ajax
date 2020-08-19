@@ -1,6 +1,6 @@
 {
   "name": "qiao-ajax",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "license": "MIT",
   "description": "browser ajax and nodejs http request",
   "keywords": [
