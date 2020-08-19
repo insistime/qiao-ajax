@@ -10,7 +10,9 @@
     "http request"
   ],
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "webpack --config webpack.js"
+  },
   "dependencies": {
     "axios": "^0.19.2"
   },
@@ -25,5 +27,8 @@
     "type": "git",
     "url": "git+https://github.com/insistime/q-ajax.git"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
