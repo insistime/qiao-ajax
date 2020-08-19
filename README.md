@@ -1,7 +1,4 @@
 # urls
-## homepage
-[https://code.insistime.com/q-ajax](https://code.insistime.com/q-ajax)
-
 ## github
 [https://github.com/insistime/q-ajax](https://github.com/insistime/q-ajax)
 
@@ -16,23 +13,26 @@
 npm install q-ajax
 
 ## dependencies
+1. http request by axios
 
 ## documentation
+1. axios, https://www.npmjs.com/package/axios
 
 # api
-## setItem
+## get
 ```javascript
 'use strict';
 
-var qls = require('q-ajax');
+var q = require('q-ajax');
 
-var test = function(){
-	var name = 'name';
-	var value = 'value';
-	qls.setItem(name, value);
-
-	var expires = 1;
-	qls.setItem(name, value, expires);
+var test = async function(){
+    try{
+        var url = 'http://icanhazip.com/';
+        var res = await q.get(url);
+        console.log(res);
+    }catch(e){
+        console.log(e);
+    }
 };
 
 test();
