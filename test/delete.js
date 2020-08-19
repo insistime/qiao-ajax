@@ -1,6 +1,6 @@
 'use strict';
 
-var q = require('../lib/q-ajax');
+var q = require('../lib/qiao-ajax');
 
 var test = async function(){
     try{

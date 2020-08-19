@@ -1,16 +1,16 @@
 # urls
 ## github
-[https://github.com/insistime/q-ajax](https://github.com/insistime/q-ajax)
+[https://github.com/insistime/qiao-ajax](https://github.com/insistime/qiao-ajax)
 
 ## npm
-[https://www.npmjs.com/package/q-ajax](https://www.npmjs.com/package/q-ajax)
+[https://www.npmjs.com/package/qiao-ajax](https://www.npmjs.com/package/qiao-ajax)
 
 ## donate
 [http://uikoo9.com/donate](http://uikoo9.com/donate)
 
 # started
 ## install
-npm install q-ajax
+npm install qiao-ajax
 
 ## dependencies
 1. http request by axios
@@ -23,7 +23,7 @@ npm install q-ajax
 ```javascript
 'use strict';
 
-var q = require('q-ajax');
+var q = require('qiao-ajax');
 
 var test = async function(){
     try{

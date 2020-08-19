@@ -1,1 +1,1 @@
-module.exports = require('./lib/q-ajax.js');
+module.exports = require('./lib/qiao-ajax.js');

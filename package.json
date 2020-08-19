@@ -1,5 +1,5 @@
 {
-  "name": "q-ajax",
+  "name": "qiao-ajax",
   "version": "0.0.1",
   "license": "MIT",
   "description": "browser ajax and nodejs http request",
@@ -21,11 +21,11 @@
     "email": "npm@insistime.com",
     "url": "https://insistime.com"
   },
-  "homepage": "https://code.insistime.com/q-ajax",
+  "homepage": "https://code.insistime.com/qiao-ajax",
   "funding": "http://uikoo9.com/donate",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/insistime/q-ajax.git"
+    "url": "git+https://github.com/insistime/qiao-ajax.git"
   },
   "dependencies": {
     "axios": "^0.19.2"
