@@ -1,0 +1,29 @@
+{
+  "name": "q-ajax",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "browser ajax and nodejs http request",
+  "keywords": [
+    "browser",
+    "ajax",
+    "nodejs",
+    "http request"
+  ],
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.19.2"
+  },
+  "author": {
+    "name": "qiaowenbin",
+    "email": "npm@insistime.com",
+    "url": "https://insistime.com"
+  },
+  "homepage": "https://code.insistime.com/q-ajax",
+  "funding": "http://uikoo9.com/donate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insistime/q-ajax.git"
+  },
+  "devDependencies": {}
+}
