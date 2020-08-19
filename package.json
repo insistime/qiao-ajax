@@ -7,14 +7,14 @@
     "browser",
     "ajax",
     "nodejs",
-    "http request"
+    "http",
+    "request"
   ],
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.js"
-  },
-  "dependencies": {
-    "axios": "^0.19.2"
+    "build": "webpack --config webpack.js",
+    "reload": "pm2 reload all",
+    "pack": "npm run build && npm run reload"
   },
   "author": {
     "name": "qiaowenbin",
@@ -26,6 +26,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/insistime/q-ajax.git"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   },
   "devDependencies": {
     "webpack": "^4.44.1",
