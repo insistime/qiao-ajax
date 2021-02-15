@@ -27,10 +27,10 @@
     "url": "git+https://github.com/insistime/qiao-ajax.git"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   },
   "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0"
   }
 }
